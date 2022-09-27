@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  display: grid;
+  height: 100vh;
+}
+
+#root {
+  margin: auto;
+  background-color: white;
+}
+
+div {
+  padding: 0.75rem 1rem;
+  border-radius: 3px;
+  background-color: lightgreen;
+}
+
+.dark {
+  background-color: grey;
+  color: white;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
